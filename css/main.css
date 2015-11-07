@@ -1,5 +1,5 @@
 body {
-  font-family: Montserrat;
+  font-family: Montserrat, helvetica, sans-serif;
   color: #333;
   margin: 0;
 }
@@ -50,7 +50,7 @@ body {
 .square {
   cursor: pointer;
   display: inline-block;
-  background-color: #E4EEEE;
+  background-color: #C1D8D8;
   color: #fff;
   width: 100px;
   height: 100px;
@@ -64,7 +64,7 @@ body {
 }
 
 .square:hover {
-  background-color: #C1D8D8;
+  background-color: #8BAFAF;
 }
 
 .selected {

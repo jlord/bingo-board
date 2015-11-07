@@ -1,0 +1,12 @@
+language: javascript
+script: standard && node test.js
+sudo: false
+notifications:
+  email: false
+branches:
+  only:
+  - gh-pages
+  - "/.+/"
+before_install:
+  - npm install tape
+  - npm install standard
